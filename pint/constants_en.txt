@@ -3,6 +3,7 @@
 # Language: english
 # Source: https://physics.nist.gov/cuu/Constants/
 #         https://physics.nist.gov/PhysRefData/XrayTrans/Html/search.html
+#		  https://www.bipm.org/en/publications/mises-en-pratique/
 # :copyright: 2013,2019 by Pint Authors, see AUTHORS for more details.
 
 #### MATHEMATICAL CONSTANTS ####
@@ -23,8 +24,8 @@ avogadro_number = 6.02214076e23                               # since May 2019
 boltzmann_constant = 1.380649e-23 J K^-1 = k = k_B            # since May 2019
 standard_gravity = 9.80665 m/s^2 = g_0 = g0 = g_n = gravity   # since 1901
 standard_atmosphere = 1.01325e5 Pa = atm = atmosphere         # since 1954
-conventional_josephson_constant = 4.835979e14 Hz / V = K_J90  # since Jan 1990
-conventional_von_klitzing_constant = 2.5812807e4 ohm = R_K90  # since Jan 1990
+conventional_josephson_constant = 2 * e / h                   # since May 2019
+conventional_von_klitzing_constant = h / e ** 2               # since May 2019
 
 #### DERIVED EXACT CONSTANTS ####
 # Floating-point conversion may introduce inaccuracies

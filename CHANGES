@@ -7,6 +7,12 @@ Pint Changelog
 - Fixed several Sphinx issues. Fixed intersphinx hooks to all classes missing.
   (Issue #881, Thanks Guido Imperiale)
 
+0.10 (2020-01-07)
+-----------------
+- **BREAKING CHANGE**:
+  Because of SI change on May 2019, using the K_J-90 and R_J-90 definitions will not 
+  be able to obtain the units. K_J and R_J exact values should be used instead.
+
 0.10 (2020-01-05)
 -----------------
 
